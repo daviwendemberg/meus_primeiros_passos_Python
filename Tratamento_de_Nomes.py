@@ -1,0 +1,7 @@
+name = str(input('Me passe seu nome completo: ')).strip()
+print(name.upper())
+print(name.lower())
+print(f'Seu nome possui: {len(name) - name.count(" ") } ' )
+print(f'Seu primeiro nome possui: {name.find(" ")} letras')
+lista = name.split()
+print(f'Seu nome possui: {len("".join(lista))} letras')
